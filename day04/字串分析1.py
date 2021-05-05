@@ -18,5 +18,10 @@ print('此字串有幾個單字:', str.count(' ')+1)
 
 # 是否都是英文字(Aa-Zz)
 print("是否都是英文字", str.replace(' ', '').isalpha())   # 利用replace 取代空白,以防止程式判斷錯誤
+# 取字元
+print(str[2])
+print(str[0:3])   # 取出0~3的字串(不含3) 0<= str.length < 3
+print(str[-2])   # 取倒數第二個字元
 
-
+path = r"C:\temp\python\nba\score.py"   # r 將後續字串排除特殊字元，統一視為文字
+print('路徑位置:', path)
